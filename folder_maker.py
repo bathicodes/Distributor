@@ -1,6 +1,7 @@
 import os
+from environment import *
 
-path = r'/Users/bathiyaseneviratne/Desktop/Distributor'
+path = path()
 
 # create a folder on the desktop
 # If folder is already exists just pass

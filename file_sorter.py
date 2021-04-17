@@ -1,7 +1,8 @@
 import os
 from pathlib import Path
+from environment import *
 
-path = r'/Users/bathiyaseneviratne/Desktop/Distributor'
+path = path()
 
 def sorter(path):
     dirpath = Path(path)

@@ -1,7 +1,8 @@
 import os
 from file_sorter import *
+from environment import *
 
-path = r'/Users/bathiyaseneviratne/Desktop/Distributor'
+path = path()
 
 # Method for check if the target folder is empty or not
 def check():
