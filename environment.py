@@ -1,3 +1,15 @@
 def path():
     path = r'/Users/bathiyaseneviratne/Desktop/Distributor'
     return path
+
+def documents():
+    return r'/Users/bathiyaseneviratne/Documents/'
+
+def music():
+    return r'/Users/bathiyaseneviratne/Music/'
+
+def pictures():
+    return r'/Users/bathiyaseneviratne/Pictures/'
+
+def movies():
+    return r'/Users/bathiyaseneviratne/Movies/'
