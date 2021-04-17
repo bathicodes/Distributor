@@ -1,7 +1,6 @@
 def path():
-    path = r'/Users/bathiyaseneviratne/Desktop/Distributor'
-    return path
-
+    return r'/Users/bathiyaseneviratne/Desktop/Distributor'
+     
 def documents():
     return r'/Users/bathiyaseneviratne/Documents/'
 
