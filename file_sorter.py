@@ -3,10 +3,10 @@ from pathlib import Path
 from environment import *
 
 path = path_osx()
-documents_path = documents()
-music_path = music()
-pictures_path = pictures()
-movies_path = movies()
+documents_path = documents_osx()
+music_path = music_osx()
+pictures_path = pictures_osx()
+movies_path = movies_osx()
 
 def sorter(path):
     dirpath = Path(path)

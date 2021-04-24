@@ -2,14 +2,14 @@
 def path_osx():
     return r'/Users/bathiyaseneviratne/Desktop/Distributor'
      
-def documents():
+def documents_osx():
     return r'/Users/bathiyaseneviratne/Documents/'
 
-def music():
+def music_osx():
     return r'/Users/bathiyaseneviratne/Music/'
 
-def pictures():
+def pictures_osx():
     return r'/Users/bathiyaseneviratne/Pictures/'
 
-def movies():
+def movies_osx():
     return r'/Users/bathiyaseneviratne/Movies/'
