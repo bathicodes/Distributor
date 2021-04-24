@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from environment import *
 
-path = path()
+path = path_osx()
 documents_path = documents()
 music_path = music()
 pictures_path = pictures()

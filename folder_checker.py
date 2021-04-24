@@ -2,7 +2,7 @@ import os
 from file_sorter import *
 from environment import *
 
-path = path()
+path = path_osx()
 
 # Method for check if the target folder is empty or not
 def check():

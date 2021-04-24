@@ -1,4 +1,5 @@
-def path():
+# -------------------- path_osx for mac os -------------------- #
+def path_osx():
     return r'/Users/bathiyaseneviratne/Desktop/Distributor'
      
 def documents():

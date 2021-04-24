@@ -1,7 +1,7 @@
 import os
 from environment import *
 
-path = path()
+path = path_osx()
 
 # create a folder on the desktop
 # If folder is already exists just pass
