@@ -4,11 +4,11 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from environment import *
-from main import main
+from handler import handler
 
 
 def on_created(event):
-    main()
+    handler()
 
 if __name__ == "__main__":
 
