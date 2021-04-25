@@ -1,15 +1,21 @@
+from pathlib import Path
+
+
+
 # -------------------- path_osx for mac os -------------------- #
+home = str(Path.home())
+
 def path_osx():
-    return r'/Users/bathiyaseneviratne/Desktop/Distributor'
+    return f"{home}/Desktop/Distributor"
      
 def documents_osx():
-    return r'/Users/bathiyaseneviratne/Documents/'
+    return f"{home}/Documents/"
 
 def music_osx():
-    return r'/Users/bathiyaseneviratne/Music/'
+    return f"{home}/Music/"
 
 def pictures_osx():
-    return r'/Users/bathiyaseneviratne/Pictures/'
+    return f"{home}/Pictures/"
 
 def movies_osx():
-    return r'/Users/bathiyaseneviratne/Movies/'
+    return f"{home}/Movies/"
