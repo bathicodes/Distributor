@@ -1,9 +1,9 @@
 import sys
 import time
 import logging
+import environment
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from environment import *
 from handler import handler
 
 
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     event_hander = FileSystemEventHandler()
     event_hander.on_created = on_created
-    path = path_osx()
+    path = environment.path_osx()
     observer = Observer()
     observer.schedule(event_hander, path, recursive=True)
     observer.start()

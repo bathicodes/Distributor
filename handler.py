@@ -1,9 +1,9 @@
 import platform
-from folder_maker import *
-from folder_checker import *
+import folder_maker
+import folder_checker
 
 def handler():  
-    create_folder()
-    check()
+    folder_maker.create_folder()
+    folder_checker.check()
 
 handler()

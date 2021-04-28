@@ -1,8 +1,8 @@
 import os
-from file_sorter import *
-from environment import *
+import file_sorter
+import environment
 
-path = path_osx()
+path = environment.path_osx()
 
 # Method for check if the target folder is empty or not
 def check():
@@ -11,4 +11,4 @@ def check():
         pass
     else:    
         # If folder is contains other data sorter method will execute.
-        sorter(path)
+        file_sorter.sorter(path)

@@ -1,12 +1,12 @@
 import os
 from pathlib import Path
-from environment import *
+import environment
 
-path = path_osx()
-documents_path = documents_osx()
-music_path = music_osx()
-pictures_path = pictures_osx()
-movies_path = movies_osx()
+path = environment.path_osx()
+documents_path = environment.documents_osx()
+music_path = environment.music_osx()
+pictures_path = environment.pictures_osx()
+movies_path = environment.movies_osx()
 
 def sorter(path):
     dirpath = Path(path)
